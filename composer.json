@@ -1,0 +1,51 @@
+{
+    "name": "allenqin/aliyun-openapi-php-sdk",
+    "description": "Alibaba Cloud SDK for PHP",
+    "license": "Apache License 2.0",
+    "authors": [{
+        "name": "allenqin",
+        "email": "allenqinhai@gmail.com"
+    }],
+    "autoload": {
+        "classmap": ["aliyun-php-sdk-core/"],
+        "exclude-from-classmap":[
+            "aliyun-php-sdk-core/Config.php",
+            "aliyun-php-sdk-core/Autoloader/"
+        ],
+        "files":[
+            "aliyun-php-sdk-core/Regions/EndpointConfig.php"
+        ],
+        "psr-4": {
+            "Ecs\\": "aliyun-php-sdk-ecs/Ecs/",
+            "BatchCompute\\": "aliyun-php-sdk-batchcompute/BatchCompute/",
+            "Alidns\\": "aliyun-php-sdk-alidns/Alidns/",
+            "Cdn\\": "aliyun-php-sdk-cdn/Cdn/",
+            "Cms\\": "aliyun-php-sdk-cms/Cms/",
+            "CS\\": "aliyun-php-sdk-cs/CS/",
+            "Dm\\": "aliyun-php-sdk-dm/Dm/",
+            "Domain\\": "aliyun-php-sdk-domain/Domain/",
+            "Green\\": "aliyun-php-sdk-green/Green/",
+            "Iot\\": "aliyun-php-sdk-iot/Iot/",
+            "Jaq\\": "aliyun-php-sdk-jaq/Jaq/",
+            "Kms\\": "aliyun-php-sdk-kms/Kms/",
+            "Live\\": "aliyun-php-sdk-live/Live/",
+            "Market\\": "aliyun-php-sdk-market/",
+            "Mts\\": "aliyun-php-sdk-mts/Mts/",
+            "Ons\\": "aliyun-php-sdk-ons/Ons/",
+            "Rds\\": "aliyun-php-sdk-rds/Rds/",
+            "Sas_api\\": "aliyun-php-sdk-sap-api/Sas_api/",
+            "Slb\\": "aliyun-php-sdk-slb/Slb/",
+            "Sms\\": "aliyun-php-sdk-sms/Sms/",
+            "Sts\\": "aliyun-php-sdk-sts/Sts/",
+            "Ubsms\\": "aliyun-php-sdk-ubsms/Ubsms/",
+            "Vod\\": "aliyun-php-sdk-vod/Vod/",
+            "Vpc\\": "aliyun-php-sdk-vpc/Vpc/",
+            "Ram\\": "aliyun-php-sdk-ram/Ram/",
+            "R_kvstore\\": "aliyun-php-sdk-r-kvstore/R_kvstore/",
+            "Chatbot\\": "aliyun-php-sdk-chatbot/Chatbot/",
+            "Ess\\": "aliyun-php-sdk-ess/Ess/",
+            "CloudPhoto\\": "aliyun-php-sdk-cloudphoto/CloudPhoto/",
+            "Dds\\": "aliyun-php-sdk-dds/Dds/"
+        }
+    }
+}
